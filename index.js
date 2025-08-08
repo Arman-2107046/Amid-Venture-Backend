@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // CORS Configuration — only allow your frontend domain
 app.use(
     cors({
-        origin: "https://amidventure-frontend.netlify.app/", // ✅ Change as needed
+        origin: "https://amidventure-frontend.netlify.app", // ✅ Change as needed
         credentials: true,
     })
 );
